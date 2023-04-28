@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+.first{
+    background-color: orange;
+    width: 100%;
+}
+
+.header{
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px ;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.person{
+    
+    display: flex;
+    margin-left: 110px;
+width: 100%;
+
+}
+.Lady img{
+    
+    padding: 15px;
+    height: 270px;
+    width: 70%;
+}
+.Lady h1{
+        font-family: 'Arial Narrow Bold', sans-serif;
+        font-size: larger;
+        margin-left: 65px;
+        padding: 8px;
+}
+.Lady p{
+    padding-left:95px ;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.Lady .p2{
+    padding-left:105px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    
+}
+.Lady h2{
+    margin-left: 70px;
+    margin-top:20px ;
+    font-size: 30px;
+    margin-bottom:12px ;
+}
+
+
+.Man img {
+        padding-left: 20px;
+        height: 300px;
+        width: 70%;
+}
+.Man h1{
+    font-family: 'Arial Narrow Bold', sans-serif;
+        font-size: larger;
+        margin-left: 80px;
+        padding: 2px;
+        margin-top: 12px;
+}
+.Man p{
+    padding-left:100px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.Man .p3{
+    padding-left:115px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.Man h2{
+    margin-left: 80px;
+    margin-top:20px ;
+    font-size: 30px;
+    margin-bottom:12px ;
+    margin-bottom: 15px;
+}
+.Lady2 img {
+        padding-left: 40px;
+        height: 300px;
+        width: 70%;
+}
+.Lady2 h1{
+    font-family: 'Arial Narrow Bold', sans-serif;
+        font-size: larger;
+        margin-left: 110px;
+        padding: 2px;
+        margin-top:12px
+}
+.Lady2 p{
+    padding-left:100px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.Lady2 .p4{
+    padding-left:78px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.Lady2 h2{
+    margin-left: 75px;
+    margin-top:20px ;
+    font-size: 30px;
+    margin-bottom:12px
+}
+.person .left{
+    width: 30%;
+    float: left;
+}
+.person .center{
+    float: center;
+    width: 30%;
+}
+.person .right{
+    float: right;
+    width: 30%;
+}
+
+.second{
+    background-color: rgb(85, 131, 115);
+    width: 100%;
+}
+.text{
+    color: white;
+    display: flex;
+}
+.text h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-top: 120px;
+    font-size: 67px;
+    margin-left: 85px;
+    
+
+
+}
+.text p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 40px;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 30px;
+}
+.group img{
+    width:90%;
+    height: 380px;
+    margin-left: 86px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    background-color: #6D9773;
+    padding: 30px;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width:940px) {
+    body {
+        padding: 0;
+    }
+
+    .main-container {
+        flex-direction: row;
+        gap: 80px;
+        text-align: start;
+    }
+
+    .image {
+        width: 50%;
+        height: 100vh;
+    }
+
+    .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .texts {
+        width: 50%;
+        gap: 60px;
+        justify-content: center;
+    }
+
+    .texts h1 {
+        font-size: 40px;
+    }
+
+    .texts p {
+        font-size: 20px;
+    }
+}
+.out .reach{
+    color: white;
+    font-size: 50px;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    
+}
+.conf, .hel{
+color: white;
+font-size: 30px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 680px;
+    margin-bottom: 50px;
+
+}
+button{
+    background-color: rgb(235, 154, 4);
+    border-radius: 20px;
+    margin-left: 100px;
+    width: 310px;
+}
+.button{
+    padding: 7px;
+    margin: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+
+}
+.out{
+margin-left: 50px;
+}
+.small_group img{
+height: 700px;
+float: right;
+width: 180%;
+} 
