@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>I am Kripa.</p>
+    <p>I am a student.</p>
+    <p>I am 19 years old.</p>
+    <p>I live in Maligaun.</p>
+    <button onclick=changeStyling()>Click me</button>
+    <script>
+        function changeStyling(){
+            let paragraph = document.getElementsByTagName("p");
+            for(let i =0;i<paragraph.length;i++){
+                paragraph[i].style.color = "blue"
+            }
+        }
+
+
+    </script>
+    
+</body>
+</html>
