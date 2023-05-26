@@ -13,17 +13,19 @@
     <div class="container">
         <nav>
             <img src="../logo.png" alt="logo" width="10%">
-            <ul>
+            <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#Menu">Menu</a></li>
                 <li><a href="#chefs">Our Chefs</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-x" onclick ="closemenu()"></i>
             </ul>
+            <i class="fa-solid fa-bars" onclick ="openmenu()"></i>
         </nav>
         <div class="header-text">
             <p>I'm lovin' it</p>
-            <h1>GOOD FOOD <br>GOOD MOOD!</h1>+
+            <h1>GOOD FOOD <br>GOOD MOOD!</h1>
         </div>
     </div>
 </div>
@@ -140,7 +142,7 @@
     </div>
 </div>
 
-<!---contact-->
+<!--------------contact------------------->
 <div id="contact">
     <div class="container">
         <div class="row">
@@ -154,7 +156,7 @@
                     <a href="https://www.messenger.com/login/"><i class="fa-brands fa-facebook-messenger"></i></a>
                     <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
                 </div>
-                <a href="" class="btn btn2">Follow us</a>
+                <a href="image/my CV" download class="btn btn2">Download CV</a>
             </div>
             <div class="contact-right">
                 <form >
@@ -172,8 +174,24 @@
         <p>Copyright © 2023 Mc Donalds. All rights reserved.</p>
     </div>
 </div>
-    
 
+
+
+
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
     
 </body>
 </html>
